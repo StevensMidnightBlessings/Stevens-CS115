@@ -6,13 +6,11 @@
 ############################################################
 
 def same(word):
-    if word[0] == word(len(-1)):
-        print(true)
+    if word[0].casefold() == word[-1].casefold():
+        return True
     else:
-        print(false)
+        return False
 
 def consecutiveSum(x, y):
     sum = ((x+y) / 2) * (y - x - 1)
     return sum
-
-
